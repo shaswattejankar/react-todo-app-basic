@@ -28,7 +28,7 @@ export class Todo extends Component {
     render() {
     return (
         <div className='container justify-content-center'>
-            <h2 className='text-center'>Todo App</h2>
+            <h2 className='text-center'>The Todo App</h2>
             <TodoList todolist={this.state.todolist} />
             <AddTodo update={this.updatetodolist}/>
         </div>
