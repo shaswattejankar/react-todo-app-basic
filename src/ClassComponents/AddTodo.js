@@ -59,7 +59,7 @@ export class AddTodo extends Component {
 
         </InputGroup>
         <div className='d-flex justify-content-center'>
-            <Button onClick={this.clearAll} variant="outline-danger">Delete all</Button>
+            <Button onClick={this.clearAll} variant="outline-danger">Delete All</Button>
         </div>          
         </div>
         )
