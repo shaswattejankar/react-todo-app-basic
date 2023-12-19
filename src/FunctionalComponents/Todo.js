@@ -45,7 +45,7 @@ const Todo = () => {
     
     return (
         <div className='container justify-content-center'>
-            <h2 className='text-center'>Todo App</h2>
+            <h2 className='text-center'>The Todo App</h2>
             <TodoList todolist={todolist} markAsDone={markedDone} deleteItem ={deletedItem} />
             <AddTodo update={updateTodoList}/>
         </div>
